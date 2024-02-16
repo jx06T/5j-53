@@ -1,0 +1,26 @@
+.LR {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.title * {
+    margin: 10px;
+    height: 20px;
+}
+
+input {
+    width: 50px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: 35px;
+    /* 上下按鈕的高度 */
+    width: 25px;
+    /* 上下按鈕的寬度 */
+}
+
+table{
+    margin-bottom: 15px;
+}
