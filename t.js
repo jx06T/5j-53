@@ -17,7 +17,7 @@ function main(c, p) {
     var pass = p
     let all = GetAll(Number(c))
     let show = "　" + all.join("　　") + "　"
-    results += "\n" + "--------------------------------------"
+    results += "\n" + "-------------------------------------------------------------"
     results += "\n" + count + "，" + p + "：\n" + show
     // DIV.innerText = results
     for (let i = 0; i < count - 1; i++) {
