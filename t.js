@@ -279,6 +279,7 @@ GOB.addEventListener("click", () => {
         console.log(lcm)
         for (let i = 1; i < lcm + 1; i++) {
             var result = main(CI.value, i)
+            results = result + results
         }
         console.log(result2)
         const randomColors = generateRandomHexColors(CI.value);
